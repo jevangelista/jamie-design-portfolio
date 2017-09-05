@@ -130,6 +130,9 @@
     letter-spacing: 2px;
     font-weight: 600;
     padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 /* end hero styles*/
@@ -294,43 +297,6 @@
 /* End Underline From Center */
 
 
-/* start button styles */
-.hello-button {
-  background-color: #f25a50;
-  color: #ffffff ;
-  font-weight: bold;
-  font-size: 15px;
-  font-family: 'Cabin', sans-serif;
-
-}
-
-/* end button styles */
-
-/* start pulse css animation */
-@-webkit-keyframes pulse {
-
-        from {
-         opacity: 0.0;
-         font-size: 100%;
-        }
-
-        to {
-         opacity: 1.0;
-         font-size: 800%;
-        }
-
-      }
-
-.pulse-animation {
-      -webkit-animation-name: pulse;
-      -webkit-animation-duration: 1.4s;
-      -webkit-animation-iteration-count: 3;
-      -webkit-animation-timing-function: ease-in;
-      -webkit-animation-direction: alternate;
-    }
-
-/* end pulse css animation */
-
 
 @-webkit-keyframes example {
     0%   {left:0px; top:-1000px;}
@@ -340,10 +306,10 @@
 .example-animation {
     position: relative;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3.5s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 2.5s;
+    animation-duration: 3.5s;
     animation-iteration-count: 1;
 }
 
