@@ -29,10 +29,7 @@
 .overlay-nav-menu {
   position: absolute;
   z-index: 10;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  height: 80%;
   width: 100%;
   margin: 0;
   display: -webkit-flex;
@@ -100,7 +97,7 @@
   padding-top: 100px;
   background-color: #fdc8da;
   background-size: cover;
-  height: 80vh;
+  height: 85vh;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -198,7 +195,7 @@
 }
 
 .image-hover-wrapper a .image-hover-wrapper-reveal {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255,0,0,0.3);
   color: #fefefe;
   display: inline;
   margin-left: -100%;
