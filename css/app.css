@@ -108,9 +108,6 @@
           justify-content: center;
 }
 
-.hero-section .hero-section-text {
-  color: #4b4bc7;
-}
 
 .name {
   font-size: 65px;
@@ -386,7 +383,25 @@
 
 
 
-/* 826 Valencia styles*/
+/* Project styles - 826 Valencia*/
+.navbar-826 {
+  background-color: #f25a50 !important;
 
+}
 
+.hvr-underline-from-center-826:before  {
+  background: #09477c !important; 
+}
+
+.hero-section-826 {
+  background-color: #f25a50 !important;
+
+}
+
+.hero-project-name-826 {
+    font-size: 80px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: #09477c;
+}
 
