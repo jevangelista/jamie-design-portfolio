@@ -1,4 +1,3 @@
-
 /* Start nav styles*/
 .navbar{
   background-color: #fdc8da;
@@ -138,7 +137,7 @@
 .footer-section {
   padding-top: 70px;
   padding-bottom: 50px;
-  background-color: #09477c;
+  background-color: #fdc8da;
   background-size: cover;
   height: 100%;
   display: -webkit-flex;
@@ -154,13 +153,13 @@
 }
 
 .footer-section .footer-section-text {
-  color: #fdc8da;
+  color: #09477c;
   text-align: center;
    font-family: 'Cabin', sans-serif;
 }
 
 .footer-section .footer-section-header {
-  color: #fdc8da;
+  color: #09477c;
   text-align: center;
    font-family: 'Cabin', sans-serif;
    font-weight: bold;
@@ -169,7 +168,7 @@
 }
 
 .footer-section .footer-section-header {
-  color: #fdc8da;
+  color: #09477c;
   text-align: center;
    font-family: 'Cabin', sans-serif;
 }
@@ -249,7 +248,7 @@
 }
 
 .work-blocks-section {
-  background-color: #d4bdae;
+  background-color: #09477c;
 }
 
 .project-name {
@@ -383,3 +382,11 @@
   animation-iteration-count: 1;
 }
 /* end Wobble Horizontal */
+
+
+
+
+/* 826 Valencia styles*/
+
+
+
