@@ -150,6 +150,7 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+
 }
 
 .footer-section .footer-section-text {
@@ -164,6 +165,7 @@
    font-family: 'Cabin', sans-serif;
    font-weight: bold;
    letter-spacing: 1px;
+   font-size: 24px;
 }
 
 .footer-section .footer-section-header {
