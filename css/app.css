@@ -49,8 +49,8 @@
   background-color: #f25a50;
   background-size: cover;
   text-align: center;
-  -webkit-transform: translateX(-100%) rotateX(10deg);
-          transform: translateX(-100%) rotateX(10deg);
+  -webkit-transform: translateY(-100%) rotateX(10deg);
+          transform: translateY(-100%) rotateX(10deg);
   transition: all 400ms cubic-bezier(1, -0.4, 0.44, 0.985);
 }
 
