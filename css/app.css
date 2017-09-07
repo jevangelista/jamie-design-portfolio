@@ -444,15 +444,15 @@
 }
 
 .process-circle {
-  width: 120px !important;
-  height: 120px !important;
+  width: 130px !important;
+  height: 130px !important;
   background:  #f25a50;
-  -moz-border-radius: 60px;
-  -webkit-border-radius: 60px;
-  border-radius: 60px;
+  -moz-border-radius: 65px;
+  -webkit-border-radius: 65px;
+  border-radius: 65px;
   margin: 0 auto !important;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 
@@ -460,12 +460,16 @@
    font-family: 'Cabin', sans-serif;
   color: white;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 1px;
   text-decoration: none; 
   text-align: center;
-  margin: 0 auto !important;
 
+}
+
+.process-text-small {
+  font-size: 11px;
+  line-height: 150%;
 }
 
 .process-margin {
@@ -495,6 +499,8 @@ li {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 30px;
+  color: #09477c;
+  font-family: 'Cabin', sans-serif;
 }
 
 /* start 3 column module  */
