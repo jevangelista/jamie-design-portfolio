@@ -417,6 +417,7 @@
   font-family: 'Cabin', sans-serif;
   color: #09477c;
   font-weight: bold;
+  font-size: 40px;
 
 }
 
@@ -427,6 +428,7 @@
   font-family: 'Cabin', sans-serif;
   color: #09477c;
   font-weight: bold;
+  font-size: 28px;
 
 }
 
@@ -436,6 +438,8 @@
   text-align: left;
   font-family: 'Cabin', sans-serif;
   color: #09477c;
+  font-size: 18px;
+  line-height: 125%;
 
 }
 
@@ -485,6 +489,7 @@
 li {
   font-family: 'Cabin', sans-serif;
   color: #09477c;
+  margin-left: 20px;
 }
 
 .image-placeholder {
@@ -497,7 +502,7 @@ li {
 
 .image-project {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
   color: #09477c;
   font-family: 'Cabin', sans-serif;
@@ -520,6 +525,9 @@ li {
   color: white !important;
   background-color: #09477c;
   text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 
@@ -531,7 +539,7 @@ li {
 
 /* Float */
 .hvr-float {
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
