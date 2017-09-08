@@ -517,7 +517,7 @@ li {
 
 .other-work-section-3columns {
   background-color: #09477c !important;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 80px;
 }
 
@@ -528,12 +528,13 @@ li {
   font-family: 'Cabin', sans-serif;
   font-weight: bold;
   font-size: 40px;
+  margin: 0 auto !important;
 }
 
 
 .other-work-img {
-    border: 2px solid white;
-    margin-bottom: 20px;
+    border: 2px solid black;
+    margin: 20px;
 }
 /* end 3 column module  */
 
@@ -561,7 +562,7 @@ li {
 
 .social-footer {
   padding: 1rem;
-  background: #d4bdae;
+  background: #09477c;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -585,6 +586,13 @@ li {
 .social-footer .social-footer-icons .fa:hover {
   color: #4a4a4a;
   transition: color 0.3s ease-in;
+}
+
+.footer-text{
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Cabin', sans-serif;
+  margin-left: 20px;
 }
 
 
