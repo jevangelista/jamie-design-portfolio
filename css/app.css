@@ -442,7 +442,7 @@
 
 .section-block {
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .large-section-header {
@@ -457,13 +457,13 @@
 }
 
 .medium-section-subheader {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 5px;
   text-align: left;
   font-family: 'Cabin', sans-serif;
   color: #09477c;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 24px;
 
 }
 
@@ -512,13 +512,7 @@
 }
 
 .process-margin {
-  margin-bottom: 10px;
-}
-
-.discover-block {
-  background-color: #d4bdae;
-  padding-top: 60px;
-  padding-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 li {
@@ -527,18 +521,10 @@ li {
   margin-left: 20px;
 }
 
-.image-placeholder {
-  width: 100%;
-  height: 300px;
-  background: gray;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
 .image-project {
   width: 100%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   color: #09477c;
   font-family: 'Cabin', sans-serif;
 }
@@ -548,6 +534,7 @@ li {
   background-color: #09477c !important; 
   padding-top: 60px;
   padding-bottom: 30px;
+  margin-top: 80px;
 }
 
 .other-work-section-3columns {
