@@ -406,6 +406,19 @@
 
 }
 
+.hero-section-spotify {
+  background: linear-gradient(rgba(242,90,80, 0.80), rgba(242,90,80, 0.80)),
+                rgba(242,90,80, 0.80);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 15px 10px 15px;
+    min-height: 560px;
+
+}
+
 .hero-project-name-826 {
     font-size: 70px;
     font-family: 'Cabin', sans-serif;
@@ -422,8 +435,8 @@
     letter-spacing: 2px;
     font-weight: 600;
     padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 
