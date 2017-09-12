@@ -11,6 +11,8 @@
      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
+    <!-- Insert this within your head tag and after foundation.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
     <link rel="stylesheet" href="css/app.css">
      <link rel="stylesheet"
   href="css/animate.css">
@@ -122,15 +124,22 @@
 
 
 
+
       
 
 
    
+<!-- Compressed JavaScript -->
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="bower_components/foundation-sites/js/foundation.core.js"></script>
+    <script src="bower_components/foundation-sites/js/foundation.orbit.js"></script>
+     <script>
+      $(document).foundation();
+    </script>
     <script src="js/jquery.lettering.js"></script>
     <script src="js/jquery.textillate.js"></script>
   </body>

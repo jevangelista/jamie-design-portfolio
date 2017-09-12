@@ -1,3 +1,6 @@
+@import 'motion-ui';
+@include motion-ui-transitions;
+
 /* Start nav styles*/
 .navbar{
   background-color: #fdc8da;
@@ -474,7 +477,7 @@
   font-family: 'Cabin', sans-serif;
   color: #09477c;
   font-size: 18px;
-  line-height: 125%;
+  line-height: 1.5;
 
 }
 
@@ -619,4 +622,6 @@ li {
 
 
 /* end social footer styles */
+
+/*Start Slider styles */
 
