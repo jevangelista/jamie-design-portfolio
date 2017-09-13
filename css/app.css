@@ -402,7 +402,7 @@
 }
 
 .hero-section-826 {
-  background: linear-gradient(rgba(242,90,80, 0.80), rgba(242,90,80, 0.85)),
+  background: linear-gradient(rgba(242,90,80, 0.80), rgba(242,90,80, 0.80)),
                 rgba(242,90,80, 0.80) url("https://preview.ibb.co/mvKobv/826_Valencia_hero_option_warby.jpg") no-repeat center;
     background-size: cover;
     color: #fff;
@@ -417,6 +417,19 @@
 .hero-section-spotify {
   background: linear-gradient(rgba(9,71,124, 0.85), rgba(9,71,124, 0.85)),
                 rgba(9,71,124, 0.85) url("https://preview.ibb.co/eXAYBv/spotify_tile.png") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 15px 10px 15px;
+    min-height: 560px;
+
+}
+
+.hero-section-instashop {
+  background: linear-gradient(rgba(242,90,80, 0.78), rgba(242,90,80, 0.78)),
+                rgba(242,90,80, 0.78) url("https://preview.ibb.co/kqHBya/instashop_pineapple_hero.jpg") no-repeat center;
     background-size: cover;
     color: #fff;
     text-align: center;
