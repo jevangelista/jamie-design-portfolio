@@ -1,6 +1,15 @@
 @import 'motion-ui';
 @include motion-ui-transitions;
 
+.about-body {
+  background-color: #fdc8da;
+  color: #09477c;
+  font-family: 'Cabin', sans-serif;
+  width: 100%;
+  height: 1000px;
+}
+
+
 /* Start nav styles*/
 .navbar{
   background-color: #fdc8da;
