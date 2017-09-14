@@ -566,21 +566,21 @@ li {
 
 /* start 3 column module  */
 .other-work-section{
-  background-color: #09477c !important; 
+  background-color: #fdc8da !important; 
   padding-top: 60px;
   padding-bottom: 30px;
   margin-top: 80px;
 }
 
 .other-work-section-3columns {
-  background-color: #09477c !important;
+  background-color: #09477c;
   padding-top: 10px;
   padding-bottom: 80px;
 }
 
 .other-work-section-header {
-  color: white !important;
-  background-color: #09477c;
+  color: #09477c !important;
+  background-color: #fdc8da ;
   text-align: center;
   font-family: 'Cabin', sans-serif;
   font-weight: bold;
