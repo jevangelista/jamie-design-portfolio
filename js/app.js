@@ -23,3 +23,19 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
+
+/* ===== Wiggle scroll ==== 
+function checkAnimation(){
+    var $elem = $('process-module');;
+
+    if (isElementInViewport($elem){
+        // Start the animation
+        $elem.addClass('wiggle');
+    } else {
+        $elem.removeClass('wiggle');
+    }
+
+    })
+}
+*/
+

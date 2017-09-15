@@ -611,87 +611,66 @@ li {
 
 
 /* Wiggle animation for process modules */
-.wiggler{
-  margin: auto; 
-}
 
 .wiggle {
   position: relative; 
   top: 0; 
-  display: inline-block;
-  width: 50px; 
-  height: 50px; 
-  background: #353535; 
-  border-radius: 3px; 
-  
-  font-size: 24px; 
-  color: #eee;
-  font-weight: bold; 
-  font-family: sans-serif;
-  line-height: 50px; 
   text-align: center;
 }
 
 .wiggle:not(:first-child) {
-  margin-left: 25px; 
+  margin-left: 0px; 
 }
   
-
-.wiggle:hover{
-  cursor: pointer;
-  background: #454545; 
-  top: -3px;
-}
-  
-
-
 
 
 @-webkit-keyframes wiggle {
      from {
-        transform: rotate(-5deg);
+        top: -100px;
+        opacity: 0;
         }
 
         to {
-        transform: rotate(5deg);
+        top: 0px;
+        opacity: 1;
         }
 
 }
 
 .wiggle {
       -webkit-animation-name: wiggle;
-      -webkit-animation-duration: 1.4s;
-      -webkit-animation-iteration-count: infinite;
-      -webkit-animation-timing-function: ease-in;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: ease-in-out;
       -webkit-animation-direction: alternate;
 
  
 }
-
-.wiggle:not(:first-child) {
-  margin-left: 25px; 
-}
   
 
-.wiggle:hover {
-  cursor: pointer
-  background: #454545; 
-  top: -3px; 
+.wiggle:hover, .wiggle:focus, .wiggle:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  opacity: 0.8;
 }
-  
+
 
 .wiggle:nth-child(2){
-  animation-delay: -0.1s; 
+  animation-delay: 0.1s; 
 }
   
 
 .wiggle:nth-child(3) {
-  animation-delay: -0.2s; 
+  animation-delay: 0.2s; 
 }
   
 
 .wiggle:nth-child(4) {
-  animation-delay: -0.3s;
+  animation-delay: 0.3s;
+}
+
+.wiggle:nth-child(5) {
+  animation-delay: 0.4s;
 }
   
 
