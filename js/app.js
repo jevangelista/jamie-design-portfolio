@@ -19,7 +19,7 @@ $(window).scroll(function() {
 });
 $('#return-to-top').click(function() {      // When arrow is clicked
     $('body,html').animate({
-        scrollTop : 700                     // Scroll to top of body
+        scrollTop : $("#process").offset().top                  // Scroll to top of body
     }, 500);
 });
 
