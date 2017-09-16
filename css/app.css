@@ -602,7 +602,7 @@ li {
     transition: all 0.3s ease;
 }
 #return-to-top:hover {
-    background: rgba(242,90,80, 0.6);
+    background: rgba(242,90,80, 0.5);
 }
 #return-to-top:hover i {
     color: #fff;
@@ -673,5 +673,15 @@ li {
   animation-delay: 0.4s;
 }
   
+/* Orbit slider styles */
+.caption-styles{
+  background-color: (9,71,124, 0.6) !important;
+  font-family: 'Cabin', sans-serif !important;
+
+}
+
+.orbit-previous {
+
+}
 
 

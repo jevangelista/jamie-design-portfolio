@@ -4421,11 +4421,12 @@ select {
       transform: translateY(-50%);
   z-index: 10;
   padding: 1rem;
-  color: #fefefe; }
+  color: #fefefe;
+  background-color: rgba(9,71,124, 0.7); }
   [data-whatinput='mouse'] .orbit-previous, [data-whatinput='mouse'] .orbit-next {
     outline: 0; }
   .orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
-    background-color: rgba(10, 10, 10, 0.5); }
+    background-color: rgba(9,71,124, 0.5); }
 
 .orbit-previous {
   left: 0; }
@@ -4446,11 +4447,11 @@ select {
     height: 1.2rem;
     margin: 0.1rem;
     border-radius: 50%;
-    background-color: #cacaca; }
+     background-color: rgba(9,71,124, 0.5);}
     .orbit-bullets button:hover {
-      background-color: #8a8a8a; }
+      background-color: rgba(9,71,124, 0.8); }
     .orbit-bullets button.is-active {
-      background-color: #8a8a8a; }
+      background-color: rgba(9,71,124, 0.8); }
 
 .pagination {
   margin-left: 0;
