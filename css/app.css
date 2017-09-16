@@ -105,10 +105,10 @@
 
 /* Start hero styles*/
 .hero-section {
-  padding-top: 100px;
+  padding-top: 80px;
   background-color: #fdc8da;
   background-size: cover;
-  height: 85vh;
+  min-height: 400px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -134,7 +134,7 @@
     font-family: 'Cabin', sans-serif;
     letter-spacing: 2px;
     font-weight: 600;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -268,7 +268,7 @@
     font-size: 25px;
     color: #09477c;
     font-weight: bold;
-    line-height: 120%;
+    line-height: 110%;
 
 
 }
@@ -311,18 +311,23 @@
 
 
 @-webkit-keyframes example {
-    0%   {opacity: 0;}
-    100%  {opacity: 1;}
+   from {
+        top: -100px;
+        opacity: 0;
+        }
+
+        to {
+        top: 0px;
+        opacity: 1;
+        }
 }
 
 .example-animation {
     position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
+    -webkit-animation-name: example;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: ease-in;
 }
 
 
@@ -331,7 +336,44 @@
 
 /* Project styles - 826 Valencia*/
 .navbar-826 {
-  background-color: rgba(242,90,80, 0.84) !important;
+  background-color: rgba(253, 200, 218, 1.0) !important;
+
+}
+
+
+.hvr-underline-from-center-826:before  {
+  background: #09477c !important; 
+}
+
+.hero-section-826 {
+    background-color: rgba(253, 200, 218, 1.0);
+    background-size: cover;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    padding: 15px 10px 15px;
+    min-height: 350px;
+
+}
+
+.hero-project-name-826 {
+    font-size: 74px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+     color: #f25a50;
+    margin-top: 5%;
+    line-height: 100%;
+}
+
+.tagline-826 {
+    text-align: center;
+    font-size: 22px;
+     color: #09477c ;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 
@@ -340,22 +382,6 @@
 
 }
 
-.hvr-underline-from-center-826:before  {
-  background: #09477c !important; 
-}
-
-.hero-section-826 {
-  background: linear-gradient(rgba(242,90,80, 0.80), rgba(242,90,80, 0.80)),
-                rgba(242,90,80, 0.80) url("https://preview.ibb.co/mvKobv/826_Valencia_hero_option_warby.jpg") no-repeat center;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    text-rendering: optimizeLegibility;
-    margin: 0;
-    padding: 15px 10px 15px;
-    min-height: 560px;
-
-}
 
 .hero-section-spotify {
   background: linear-gradient(rgba(9,71,124, 0.85), rgba(9,71,124, 0.85)),
@@ -383,26 +409,6 @@
 
 }
 
-.hero-project-name-826 {
-    font-size: 70px;
-    font-family: 'Cabin', sans-serif;
-    font-weight: bold;
-    color: white;
-    margin-top: 80px;
-}
-
-.tagline-826 {
-    text-align: center;
-    font-size: 22px;
-    color: white;
-    font-family: 'Cabin', sans-serif;
-    letter-spacing: 2px;
-    font-weight: 600;
-    padding-top: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
-
-}
 
 .section-block {
   margin-top: 80px;
@@ -642,8 +648,6 @@ li {
       -webkit-animation-duration: 3s;
       -webkit-animation-iteration-count: 1;
       -webkit-animation-timing-function: ease-in-out;
-      -webkit-animation-direction: alternate;
-
  
 }
   
