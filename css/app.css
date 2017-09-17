@@ -378,23 +378,22 @@
 }
 
 .navbar-spotify {
-  background-color: rgba(9,71,124, 0.88) !important;
+  background-color: rgba(9,71,124, 1.0) !important;
 
 }
 
 
 .hero-section-spotify {
-  background: linear-gradient(rgba(9,71,124, 0.85), rgba(9,71,124, 0.85)),
-                rgba(9,71,124, 0.85) url("https://preview.ibb.co/eXAYBv/spotify_tile.png") no-repeat center;
+   background-color: rgba(9,71,124, 1.0);
     background-size: cover;
-    color: #fff;
     text-align: center;
     text-rendering: optimizeLegibility;
-    margin: 0;
     padding: 15px 10px 15px;
-    min-height: 560px;
+    min-height: 350px;
 
 }
+
+
 
 .hero-section-instashop {
   background: linear-gradient(rgba(242,90,80, 0.78), rgba(242,90,80, 0.78)),
@@ -678,14 +677,4 @@ li {
 }
   
 /* Orbit slider styles */
-.caption-styles{
-  background-color: (9,71,124, 0.6) !important;
-  font-family: 'Cabin', sans-serif !important;
-
-}
-
-.orbit-previous {
-
-}
-
 
