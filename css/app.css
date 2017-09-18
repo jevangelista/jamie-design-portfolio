@@ -404,7 +404,7 @@
 .image-project {
   width: 100%;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding-top: 20px;
   color: #09477c;
  font-family: 'Poppins', sans-serif;
@@ -413,7 +413,7 @@
 
 .slider-block {
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 
@@ -422,12 +422,12 @@
 }
 
 .process-circle {
-  width: 130px !important;
-  height: 130px !important;
+  width: 134px !important;
+  height: 134px !important;
   background:  #f25a50;
-  -moz-border-radius: 65px;
-  -webkit-border-radius: 65px;
-  border-radius: 65px;
+  -moz-border-radius:67px;
+  -webkit-border-radius: 67px;
+  border-radius: 67px;
   margin: 0 auto !important;
   text-align: center;
   padding-top: 25px;
@@ -447,7 +447,7 @@
 
 .process-text-small {
   font-weight: 400;
-  font-size: 9px;
+  font-size: 10px;
   line-height: 140%;
 }
 
