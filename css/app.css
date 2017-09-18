@@ -1,11 +1,37 @@
 @import 'motion-ui';
 @include motion-ui-transitions;
-
+/* Start About styles*/
 .about-body {
   background-color: #fdc8da;
   color: #09477c;
   font-family: 'Poppins',  sans-serif;
   width: 100%;
+  padding-bottom: 40px;
+
+}
+
+.about-section{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.about-photo {
+  border: 10px solid #09477c; 
+  border-radius: 4px;
+  margin-bottom: 40px;
+  text-align: center;
+
+}
+
+.about-section-header {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #f25a50 ;
+  font-weight: 800;
+  font-size: 38px;
+
 
 }
 
