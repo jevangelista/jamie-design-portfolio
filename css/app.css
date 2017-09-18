@@ -298,14 +298,20 @@
 
 .work-block-red{
   background-color: #f25a50;
+  margin: 0 auto !important; 
+  text-align: center;
 }
 
 .work-block-blue{
   background-color: #09477c;
+   margin: 0 auto !important; 
+  text-align: center;
 }
 
 .work-block-brown{
   background-color: #d4bdae;
+   margin: 0 auto !important; 
+  text-align: center;
 }
 
 
