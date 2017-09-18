@@ -386,8 +386,6 @@
 
 .last-section-block {
   margin-top: 100px;
-
-  
 }
 
 .large-section-header {
@@ -446,6 +444,16 @@
 .slider-block {
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.prototype-gif {
+  text-align: center; 
+  margin: 0 auto !important;
+   width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #09477c;
+ font-family: 'Poppins', sans-serif;
 }
 
 
