@@ -687,8 +687,19 @@ li {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+    line-height: 1.2;
 
 }
+
+.button-spacing {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #09477c;
+ font-family: 'Poppins', sans-serif;
+}
+
+
 /* end email footer styles*/
 
 /* start social footer styles  */
