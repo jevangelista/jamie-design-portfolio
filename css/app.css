@@ -583,27 +583,13 @@ li {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    z-index: 5000;
 }
-#return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
+
 #return-to-top:hover {
     background-color: rgba(0,0,0,.5);
 }
-#return-to-top:hover i {
-    color: #fff;
-    top: 5px;
-}
+
 
 
 /* Wiggle animation for process modules */
