@@ -398,6 +398,10 @@
   margin-top: 100px;
 }
 
+.last-section-block-spotify {
+  margin-top: 0px;
+}
+
 .large-section-header {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -447,6 +451,16 @@
   color: #09477c;
  font-family: 'Poppins', sans-serif;
 }
+
+.image-project-medium {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  color: #09477c;
+ font-family: 'Poppins', sans-serif;
+}
+
 
 .image-project-short {
   width: 100%;
