@@ -446,8 +446,17 @@
   padding-top: 20px;
   color: #09477c;
  font-family: 'Poppins', sans-serif;
-
 }
+
+.image-project-short {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  color: #09477c;
+ font-family: 'Poppins', sans-serif;
+}
+
 
 .hero-image {
   margin: 0 auto !important; 
