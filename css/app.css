@@ -798,7 +798,7 @@ li {
 .example-animation {
     position: relative;
     -webkit-animation-name: example;
-      -webkit-animation-duration: 2s;
+      -webkit-animation-duration: 1.6s;
       -webkit-animation-iteration-count: 1;
       -webkit-animation-timing-function: ease-in;
 }
