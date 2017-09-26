@@ -374,6 +374,16 @@
     line-height: 100%;
 }
 
+@media screen and (max-width: 39.9375em) {
+    .hero-project-name-mobile-80 {
+        padding-top: 80px !important;
+    }
+
+    .hero-project-name-mobile-60 {
+        padding-top: 60px !important;
+    }
+}
+
 .case-study-tagline {
    text-align: center;
     font-size: 22px;
