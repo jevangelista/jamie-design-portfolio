@@ -13,6 +13,13 @@
   href="css/animate.css">
    <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Code needed for jQuery fancybox -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
 
   </head>
   <body>
@@ -393,8 +400,12 @@
 
            <!--Start Wireframes image -->
           <div class="grid-container full" >
-            <div class="grid-x grid-margin-x" >
-              <div class="cell large-3 small-6"><div class="image-project-short"><img  src="images/Capstone2_Wireframes1_Homepage.jpg"></div></div>
+            <div class="grid-x grid-margin-x" >            
+              <div class="cell large-3 small-6"><div class="image-project-short">
+                 <a data-fancybox="gallery" href="images/Capstone2_Wireframes1_Homepage.jpg"><img src="images/Capstone2_Wireframes1_Homepage.jpg"></a>
+                <img  src="images/Capstone2_Wireframes1_Homepage.jpg">
+
+              </div></div>
               <div class="cell large-3 small-6" ><div class="image-project-short"><img src="images/Capstone2_Wireframes6_Programs.jpg"></div></div>
               <div class="cell large-3 small-6" ><div class="image-project"><img src="images/Capstone2_Wireframes2_Volunteer.jpg"></div></div>
                  <div class="cell large-3 small-6"><div class="image-project"><img src="images/Capstone2_Wireframes5_Donation.jpg"></div></div>
