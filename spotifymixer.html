@@ -21,19 +21,38 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
 
+
+   <!-- Code needed for Owl Carousel -->
+   <style type="text/css">
+     *{
+        margin: 0;
+        padding: 0;
+
+     }
+     .img-fluid{
+      max-width: 100%;
+      height: 100%;
+      display: block;
+     }
+
+   </style>
+
+   <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
+
   </head>
   <body>
  
-    <!-- Start of navbar-->
-     <nav class="navbar  navbar-826" role="navigation" >
+     <!-- Start of navbar-->
+     <nav class="navbar" role="navigation">
       <ul id="overlay-nav-menu" class="overlay-nav-menu">
-        <li><a href="index.html">Work</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
 
-       <div class="overlay-nav-menu-toggle logo-ellipses "> 
-        <a data-toggle-menu class="hvr-underline-from-center" href="#overlay-nav-menu"><img src="images/updated-ellipses.png" width="40" ></a>
+      <div class="overlay-nav-menu-toggle logo-ellipses "> 
+       <a data-toggle-menu class="hvr-underline-from-center" href="#overlay-nav-menu"><img src="images/ellipses.png" width="40" ></a>
       </div>
       
       
@@ -562,7 +581,7 @@
         <div class="grid-container full" >
             <div class="grid-x cell">
 
-          <div class="orbit slider-block" role="region" aria-label="User Flows" data-orbit style="background-color: #09477c;">
+          <div class="orbit slider-block" role="region" aria-label="User Flows" data-orbit style="background-color: #E7DAD0;">
             <div class="orbit-wrapper">
               <div class="orbit-controls">
                 <button class="orbit-previous"><span class="show-for-sr" >Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -688,29 +707,43 @@
       </div>
        
 
-      <div class="grid-x">
-          <div class="large-auto cell image-hover-wrapper image-hover-wrapper-red work-block-red image-hover-wrapper-other-work ">
-          <a href="826valencia.html" ><img src="images/826Valencia_Work_Tile_V2.png">
+       <div class="grid-x ">
 
-                  <span class="image-hover-wrapper-reveal image-hover-wrapper-reveal-red image-hover-wrapper-reveal-other-work">
-              <p class="project-name">826 Valencia</p>
-            </span>
-          </div>
-            <div class="large-auto cell image-hover-wrapper image-hover-wrapper-blue work-block-blue image-hover-wrapper-other-work "> 
-          <a href="instashop.html"><img src="images/Instashop_Work_Tile.png">
+        
+                <div class="owl-carousel owl-theme">
+                  <div class="carousel-container item ">
+                      <a class="carousel-text-centered" href="flightmatrix.html" >Flight Matrix</a>
+                      <img src="images/carousel1.png" class="img-fluid" alt="12">
 
-                  <span class="image-hover-wrapper-reveal image-hover-wrapper-reveal-blue image-hover-wrapper-reveal-other-work" >
-              <p class="project-name">Instashop </p>
-            </span>
-          </div>
-        <div class="large-auto cell image-hover-wrapper image-hover-wrapper-red work-block-red image-hover-wrapper-other-work">
-          <a href="barkeep.html"><img src="images/Barkeep_Work_Tile.png">
+                  </div>
 
-                  <span class="image-hover-wrapper-reveal image-hover-wrapper-reveal-red image-hover-wrapper-reveal-other-work">
-              <p class="project-name">Barkeep!</p>
-            </span>
-          </div>
-      </div>
+                  <div class="carousel-container item">
+                     <a class="carousel-text-centered" href="brandmatch.html" >Brand Match</a>
+                      <img src="images/carousel2.png" class="img-fluid" alt="12">
+                  </div>
+
+                  <div class="carousel-container item">
+                    <a class="carousel-text-centered" href="826valencia.html" >826 Valencia</a>
+                      <img src="images/carousel1.png" class="img-fluid" alt="12">
+                  </div>
+
+                  <div class="carousel-container item">
+                     <a class="carousel-text-centered" href="instashop.html" >Instashop</a>
+                      <img src="images/carousel2.png" class="img-fluid" alt="12">
+                  </div>
+
+                  <div class="carousel-container item">
+                    <a class="carousel-text-centered" href="barkeep.html" >Barkeep!</a>
+                      <img src="images/carousel1.png" class="img-fluid" alt="12">
+                  </div>
+                    <div class="carousel-container item">
+                     <a class="carousel-text-centered" href="index.html" >View All Projects</a>
+                      <img src="images/carousel2.png" class="img-fluid" alt="12">
+                  </div>
+                
+                </div>
+            </div>
+       
 
     
 
@@ -748,7 +781,27 @@
 
 
 
-
+     <!--Code needed for Owl Carousel -->  
+     <script src="owlcarousel/docs/assets/vendors/jquery.min.js"></script>
+    <script src="owlcarousel/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:3
+            },
+            1279:{
+                items:6
+            }
+        }
+        })
+    </script>
 
    
 
