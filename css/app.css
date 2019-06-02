@@ -98,7 +98,7 @@
 
 .overlay-nav-menu a {
   display: block;
-  color: #1D5687;
+  color: #FFFFFF;
   font-weight: bold;
   height: 6.25rem;
   line-height: 6.25rem;
@@ -107,7 +107,7 @@
 }
 
 .overlay-nav-menu a:hover {
-  color: #F36157 ;
+  color: #1D5687 ;
 }
 
 .overlay-nav-menu.is-open {
