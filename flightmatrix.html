@@ -9,8 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,800" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-     <link rel="stylesheet"
-  href="css/animate.css">
+     <link rel="stylesheet" href="css/animate.css">
    <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <!-- Code needed for jQuery fancybox -->
@@ -20,6 +19,9 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+
+  <link rel="stylesheet" href="css/flickity.min.css" media="screen">
+  <script src="js/flickity.pkgd.min.js"></script>
 
 
   </head>
@@ -769,19 +771,36 @@ I tried out about 30 different combinations of air cards, along with the grid po
      <!--End of Conclusions block -->
 
 
-    <!-- Start of 3-column work module  
+    <!-- Start of 3-column work module      -->
 
       <div class="grid-x other-work-section">
          <div class="small-12 cell" >
          <h1 class="large-section-header">Other Work</h1>
-
+    
          </div>
       </div>
        
+
+           <div class="grid-x ">
+              <div class="small-12 cell" >
+      
+                <div class="main-carousel" data-flickity='{"wrapAround": true, "groupCells": 1, "pageDots": false, "cellAlign": "left", "prevNextButtons": true}'>
+                   <div class="carousel-cell-alt"><a href="brandmatch.html"><button class="btn-tan"> Brand Match</button></a></div>
+                    <div class="carousel-cell"><a href="826Valencia.html"><button class="btn-brown">826 Valencia</button></a></div>
+                    <div class="carousel-cell-alt"><a href="instashop.html"><button class="btn-tan">Instashop</button></a></div>
+                    <div class="carousel-cell"><a href="spotifymixer.html"><button class="btn-brown">Spotify Mixer</button></a></div>
+                    <div class="carousel-cell-alt"><a href="barkeep.html"><button class="btn-tan">Barkeep!</button></a></div>
+                    <div class="carousel-cell"><a href="index.html"><button class="btn-brown">Home</button></a></div>
+                    
+                
+                  </div>
+
+             </div>
+          </div>
         
            
 
-    -->
+
 
         <!--Start  of social footer block --> 
     <footer class="social-footer">
@@ -809,7 +828,6 @@ I tried out about 30 different combinations of air cards, along with the grid po
         </div>
     </footer>
      <!--Start  of social footer block -->  
-
 
 
      <script src="js/vendor/jquery.js"></script>
