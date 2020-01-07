@@ -434,11 +434,15 @@
 .large-section-header {
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
   font-family: 'Poppins', sans-serif;
   color: #F36157;
   font-weight: 800;
   font-size: 38px;
+}
+
+.other-work-header {
+  text-align: center;
 }
 
 .medium-section-subheader {
