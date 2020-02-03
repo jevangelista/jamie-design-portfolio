@@ -869,7 +869,7 @@ li {
 .example-animation {
     position: relative;
     -webkit-animation-name: example;
-      -webkit-animation-duration: 1.3s;
+      -webkit-animation-duration: 1s;
       -webkit-animation-iteration-count: 1;
       -webkit-animation-timing-function: ease-in;
 }
@@ -1013,3 +1013,17 @@ color: #000000;
 } 
 
 }
+
+
+/* Styling for lists */
+
+li {
+  margin-bottom: 10px;
+}
+
+.before-list-spacing {
+  margin-bottom: 10px;
+}
+
+
+
